@@ -64,6 +64,7 @@ git reset --hard 1094a//回退到未来版本
 ```
 if 第一次安装
 	配置ssh https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
+
 Github上新建repo https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440
 本地{
 git init
@@ -74,5 +75,15 @@ git commit
 git add remote origin XXX.com/xxx/git
 git push -u origin master
 end
+```
+
+```
+if 做出了修改{
+本地{
+git add
+git commit
+}
+git push origin master
+}
 ```
 
