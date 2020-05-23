@@ -51,7 +51,7 @@ git reset --hard 1094a//回退到未来版本
 2. 复制git地址后执行`git remote add origin XXXXX.com/xxxx.git`
 3. 上传`git push -u origin master`
 
-一台计算机第一次提交会有ssh警告，只要绑定好ssh以后就不会有问题了，详见教程相应章节。
+一台计算机第一次提交会有ssh警告，只要绑定好ssh以后就不会有问题了，详见教程“远程仓库”章节。
 
 ## 从Github下载 —— 从远程库克隆
 
