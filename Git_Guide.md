@@ -58,3 +58,21 @@ git reset --hard 1094a//回退到未来版本
 这个就很简单了，网页进入你想下载的项目，直接git clone，梭哈一下就完了
 
 `git clone XXXXX.com/xxx.git`
+
+## 总结
+
+```
+if 第一次安装
+	配置ssh https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
+Github上新建repo https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440
+本地{
+git init
+git add
+git commit
+}
+复制GitHub上的repo的ssh XXX.com/xxx.git
+git add remote origin XXX.com/xxx/git
+git push -u origin master
+end
+```
+
